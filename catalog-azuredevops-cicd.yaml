@@ -4,9 +4,9 @@ kind: Component
 metadata:
   name: azuredevops
   description: azure devops cicd
-  # ...
   annotations:
     dev.azure.com/project-repo: DevSecOpsSRE/azuredevops
 spec:
   type: service
-  # ...
+  lifecycle: experimental
+  owner: team-b
