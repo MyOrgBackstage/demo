@@ -4,7 +4,7 @@ metadata:
   name: example
   description: example.com
   annotations:
-    'backstage.io/kubernetes-cluster': DevSecOpsCOEAKS
+    backstage.io/kubernetes-cluster: DevSecOpsCOEAKS
 spec:
   type: website
   lifecycle: production
