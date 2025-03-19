@@ -4,7 +4,7 @@ metadata:
   name: example-service
   description: 'An example service'
   annotations:
-    jira.issues: 'DEV-1262'
+    jira/project-key: DEV
 spec:
   type: service
   lifecycle: production
