@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-service
+  description: 'An example service'
+  annotations:
+    jira.issues: 'DEV-1262'
+spec:
+  type: service
+  lifecycle: production
