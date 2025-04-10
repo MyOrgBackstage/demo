@@ -4,7 +4,8 @@ metadata:
   name: 'Jenkins'
   description: 'Monitor Jenkins CICD'
   annotations:
-    jenkins.io/job-full-name: 'Backstage/sample_jenkins' # use this instead
+    jenkins.io/job-full-name: 'jenkins-maven-pipeline' # use this instead
+    sonarqube.org/project-key: MyOrgBackstage_springboot-maven-micro
 spec:
   type: service
   lifecycle: experimental
