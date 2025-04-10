@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 'SonarCloud'
+  description: 'Monitor Project in Sonar'
+  annotations:
+    sonarqube.org/project-key: MyOrgBackstage_springboot-maven-micro
+spec:
+  type: service
+  lifecycle: experimental
+  owner: your-name
