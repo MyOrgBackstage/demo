@@ -27,3 +27,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: your-name
+  providesApis:
+    - my-service-api
