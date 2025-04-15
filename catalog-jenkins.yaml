@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: 'My App'
+  name: 'My-App'
   description: 'Demo Java app'
   annotations:
     jenkins.io/job-full-name: 'jenkins-maven-pipeline' # use this instead
