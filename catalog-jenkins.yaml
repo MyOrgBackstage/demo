@@ -6,6 +6,11 @@ metadata:
   annotations:
     jenkins.io/job-full-name: 'jenkins-maven-pipeline' # use this instead
     sonarqube.org/project-key: MyOrgBackstage_springboot-maven-micro
+    # mandatory annotation
+    harness.io/project-url: https://app.harness.io/ng/account/yEWJldNeS3aMf9whDHiY-A/all/orgs/default/projects/default_project/overview
+    # optional annotations, don't include this block if not needed. Add this if specific pipeline executions needs to be shown on the Plugin. When specified, latest pipeline execution details for configured pipelineIds(max 10) and configured serviceId will be shown.
+    #  harness.io/ci-pipelineIds: <pipelineId1,pipelineId2,pipelineId3 etc>
+   # harness.io/cd-serviceId: <serviceId>
 spec:
   type: service
   lifecycle: experimental
