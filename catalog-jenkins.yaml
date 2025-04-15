@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: 'Jenkins'
-  description: 'Monitor Jenkins CICD'
+  name: 'My App'
+  description: 'Demo Java app'
   annotations:
     jenkins.io/job-full-name: 'jenkins-maven-pipeline' # use this instead
     sonarqube.org/project-key: MyOrgBackstage_springboot-maven-micro
